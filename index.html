@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="assets/style.css">
-    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
@@ -12,14 +12,16 @@
     <title>Gabriel Vieira</title>
 </head>
 <body>
+
     <header>
 
-        <a href="#" class="logo"><span>Gabriel </span> Vieira</a>
+        <a href="#" class="logo"><span>g</span>Vieira</a>
+        <img class="menu-opener" src="assets/img/menu.png" alt="">
 
         <ul class="navlist">
             <li><a href="#home">Home</a></li>
             <li><a href="#sobre">Sobre Mim</a></li>
-            <li><a href="#experiencias">Experiências</a></li>
+            <li><a href="#experience">Experiências</a></li>
             <li><a href="#projetos">Projetos</a></li>
             <li><a href="#habilidades">Habilidades</a></li>
         </ul>
@@ -32,13 +34,11 @@
             <div class="home-div">
                 <div class="home-text">
                     <div class="slide">
-                        <span class="one">Olá</span>
-                        <span class="two">Eu sou </span>
+                        <span class="two">Olá 👋🏾, Me chamo </span>
                         <h1>Gabriel Vieira</h1>
                         <h3>Engenheiro De Software</h3>
                         <div class="button">
-                            <a href="https://api.whatsapp.com/send?phone=5531985935178" target="_blank" class="btn">Me mande uma menssagem</a>            
-                                <a href="#portfolio" class="btn2"><span><i class="bx bx-play"></i></span>See my work</a>
+                            <a href="https://api.whatsapp.com/send?phone=5531985935178" target="_blank" class="btn">Entre em contato comigo!</a>            
                             </div>
                     </div>
                 </div>
@@ -49,7 +49,7 @@
 
 
     <!--SECTION SOBRE-->
-    <section class="sobre">
+    <section class="sobre" id="sobre">
             <div class="sobre-div">
                 <div class="sobre-img">
                     <img src="assets/img/eu.jpeg" >
@@ -58,16 +58,20 @@
                 
                 <div class="sobre-text">
                     <h2>Sobre <span>Mim</span></h2>
-                    <h4>Just passionate about coding.</h4>
-                    <p>&bull; Graduated in Systems Analysis and Development.</p>
-                    <p>&bull; 2 year experience</p>
-                    <p>&bull; <a class="link" href="https://www.efset.org/cert/KjKPY3" target="_blank">C1 Advanced English Level</a></p>
-                    <p>&bull; Studying Cloud Solutions in AWS and Events-Driven Architecture</p>
+                    <h4 >Aspirante a Professional de T.i. </h4>
+                    <h4 class="vaga">Em busca da primeira vaga como dev! </h4>
+                    <p>&bull; Cursando 5º período de Engenharia de Software</p>
+                    <p>&bull; Natureza proativa e persistente</p>
+                    <p>&bull; Estágiario na Aperam </p>
+                    <p>&bull; Inglês avançado</a></p>
+                    <p>&bull; Estudando Java </p>
+                    <p>&bull; Possuo conhecimentos básicos em desenvolvimento web (HTML | CSS | JS) e FrameWorkS (ReactJs | NodeJs ) </p> 
+
+
 
                     <div class="socials">
                         <a href="https://www.linkedin.com/in/gabriel-vieirax12/" target="_blank" class="btn-socials"><span><i class="bx bxl-linkedin"></i></span></a>
                         <a href="https://github.com/gVieiraX" target="_blank" class="btn-socials"><span><i class="bx bxl-github"></i></a>
-                        <a href="https://www.instagram.com/gabriel_vsr1/" target="_blank" class="btn-socials"><span><i class="bx bxl-instagram"></i></i></a>
                     </div>
                 </div>
 
@@ -78,18 +82,17 @@
     <!--SECTION ABOUT-->
 
    <!--EXPERIENCIAS-->
-    <section class="experiencias">
+    <section class="experiencias" id="experience">
         <div class="main-text">
-            <p>Professional</p>
-            <h2><span>Work</span> Experiences</h2>
+            <h2><span>Experiências </span>Profissionais</h2>
         </div>
 
         <div class="timeline">      
       
             <div class="container">
-                <img src="assets/img/APERAM.jpg">
+                <img src="assets/img/aperam34.jpeg">
                 <div class="text-box">
-                    <small>2023 - Present</small>
+                    <small>03/2023 - Present</small>
                     <h5>Estágiario <span><b>Aperam South America</b></span> </h5>
                     <p><span>Habilidades</span> Pi Vision, Power Bi, Google Sheets, Excel</p>
                 </div>
@@ -99,10 +102,176 @@
    <!--EXPERIENCIAS-->
 
 
-    <section class="projetos"></section>
-    <section class="Habilidades"></section>
+   <section class="portfolio" id="projetos">
+    <div class="main-text">
+        <h2>Meus <span>Projetos</span></h2>
+    </div>
+    <div class="portfolio-content">
+        <div class="row">
+            <img src="assets/img/nft.png" >
+            <div class="layer">
+                <h5>NFT Project</h5> 
+                <p>Site sobre a NFT ETHERIUM utilizando HTML | CSS.</p>
+                <div class="iconsaling">
+                    <a href="https://github.com/gVieiraX/NFT-Project"  target="_blank"><i class="bx bxl-github"></i></a>         
+                    <a href="https://nftprojectgvieira.netlify.app/"  target="_blank" ><i class='bx bx-world'></i></a>        
+                </div>              
+            </div>             
+        </div>
+
+
+        
+        <div class="row">
+            <img src="assets/img/awax.png">
+            <div class="layer">
+                <h5>Awax Project</h5>
+                <p>Site para loja de desing desenvolvido no curso B7WEB, utilizando HTML | CSS. Em breve novas atualizações.</p>  
+                <div class="iconsaling">
+
+                      <a href="https://github.com/gVieiraX/AwaxProject"  target="_blank"><i class="bx bxl-github"></i></p>
+                       <a href="https://awaxprojectgvieira.netlify.app/"  target="_blank" ><i class='bx bx-world'></i></a>        
+                    </div>              
+
+            </div>
+        </div>
+        <div class="row">
+            <img src="assets/img/jogodavelha.png">
+            <div class="layer">
+                <h5>Jogo Da Velha</h5>
+                <p>Jogo da velha desenvolvido em HTMLL | CSS3 | JavaScript no curso B7WEB.</p>
+
+                <div class="iconsaling">
+                <a href="https://github.com/gVieiraX/Projeto-Jogo-Da-Velha" target="_blank"><i class="bx bxl-github"></i>          
+                <a href="https://jogodavelhagvieira.netlify.app/"  target="_blank" ><i class='bx bx-world'></i></a>        
+                </div>              
+
+            </div>
+        </div>
+
+        <div class="row">
+            <img src="assets/img/pizza.png">
+            <div class="layer">
+                <h5>Pizza Project</h5>
+
+               <p>Site de pizzaria utilizando HTML | CSS | JavaScript, desenvolvido no curso B7WEB.</p>  
+                      
+                <div class="iconsaling">
+                    <a href="https://github.com/gVieiraX/PizzaProject" target="_blank"><i class="bx bxl-github"></i>          
+                    <a href="https://pizzaprojectgvieira.netlify.app/"  target="_blank" ><i class='bx bx-world'></i></a>        
+                    </div>       
+            </div>
+        </div>
+
+        <div class="row">
+            <img src="assets/img/petshop.png">
+            <div class="layer">
+                <h5>PetDevShop</h5>
+               <p>Site PetDevShop utilizando HTML | CSS | JS | NodeJs | TS durante curso B7WEB.</p>  
+                
+                <div class="iconsaling">
+                    <a href="https://github.com/gVieiraX/NodeJs-Canil" target="_blank"><i class="bx bxl-github"></i>          
+                    <a href="#projetos"  target="_blank" ></a>        
+                    </div>       
+               
+            </div>
+        </div>
+
+        <div class="row">
+            <img src="assets/img/imc.png">
+            <div class="layer">
+                <h5>Calculadora IMC</h5>
+                 <p>Calculadora de IMC desenvolivda em HTML | CSS | JS | NodeJs | ReactJs | TS no curso B7WEB.</p>     
+                
+                <div class="iconsaling">
+                    <a href="https://github.com/gVieiraX/ImcProject" target="_blank"><i class="bx bxl-github"></i>          
+                    <a href="#projetos"  target="_blank" ></a>        
+                    </div> 
+               
+            </div>
+        </div>
+
+        <div class="textproject">
+            <div class="layerproject">
+                <h1>Mais projetos virão!!</h1>
+                <p>Estarei sempre adicionando novos projetos aqui!🚀</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<section class="services" id="habilidades">
+    <div class="main-text">
+        <h2>Conhecimentos</h2>
+    </div>
+
+    <div class="services-content">
+        <div class="box">
+            <div class="s-icons">
+                <i class="bx bxl-html5"></i>
+            </div>
+            <h3>HTML</h3>
+        </div>
+
+        <div class="box">
+            <div class="s-icons">
+                <i class="bx bxl-css3"></i>
+            </div>
+            <h3>CSS</h3>
+        </div>
+
+        <div class="box">
+            <div class="s-icons">
+                <i class="bx bxl-javascript"></i>
+            </div>
+            <h3>Java Script</h3>
+        </div>
+
+        <div class="box">
+            <div class="s-icons">
+                <i class="bx bxl-java"></i>
+            </div>
+            <h3>Java</h3>
+        </div>
+
+        <div class="box">
+            <div class="s-icons">
+                <i class='bx bx-data'></i>
+             </div>
+            <h3>Banco de Dados</h3>
+        </div>
+
+        <div class="box">
+            <div class="s-icons">
+                <i class='bx bxl-git'></i>
+             </div>
+            <h3>Git</h3>
+        </div>
+
+        <div class="box">
+            <div class="s-icons">
+                <i class='bx bxl-github' ></i>
+             </div>
+            <h3>Git Hub</h3>
+        </div>
+
+        <div class="box">
+            <div class="s-icons">
+                <i class='bx bxl-visual-studio'></i>
+            </div>
+            <h3>Visual Studio Code</h3>
+        </div>
 
     
+        </div>
+    </section>
 
+    <footer>
+        <div class="divfooter">
+            <h1>Desenvolvido por <a href="https://github.com/gVieiraX" target="_blank" > gVieira</a></h1>
+        </div>
+    </footer>
+<script src="assets/script.js"></script>
 </body>
 </html>
