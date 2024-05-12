@@ -1,5 +1,5 @@
 # Meu Portfólio
-  Meu primeiro portifolio desenvolvido utilizando:
+  Meu primeiro portfólio desenvolvido utilizando:
   * HTML
   * CSS
   * JavaScript
