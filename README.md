@@ -5,5 +5,5 @@
   * JavaScript
 
     
- **Futuramente adicionarei mais informações e desenvolver novas mudanças e atualiazações. Esse é só o começo 🚀**
+ **Futuramente adicionarei mais informações e desenvolver novas mudanças e atualiazações. Esse é só o começo 🚀.**
 #
