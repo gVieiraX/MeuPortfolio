@@ -1,4 +1,4 @@
-# Meu Portifolio
+# Meu Portfólio
   Meu primeiro portifolio desenvolvido utilizando:
   * HTML
   * CSS
