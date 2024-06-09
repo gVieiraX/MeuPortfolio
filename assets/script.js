@@ -1,4 +1,5 @@
-window.onload = function() {
+ //Responsividade da tela quando estiver mobile
+ window.onload = function() {
     document.querySelector(".menu-opener").addEventListener("click", function(){
 
     if(document.querySelector(".navlist").style.display == 'flex') {
@@ -8,8 +9,10 @@ window.onload = function() {
     }
     
 });
-};
+}; 
 
+
+//NAVEBAR, NAVEGAÇÃO
 document.addEventListener("scroll", function() {
    var currentScroll = window.scrollY;
    var windowHeight = window.innerHeight;
@@ -48,7 +51,7 @@ document.addEventListener("scroll", function() {
    });
 });
 
-
+//Parte dos projetos,transição
 window.addEventListener('scroll', function() {
     var section = document.getElementById('projetos');
     var position = section.getBoundingClientRect();
@@ -59,6 +62,8 @@ window.addEventListener('scroll', function() {
         section.classList.remove('shows');
     }
 });
+
+//Parte das habilidades,transição
 
 window.addEventListener('scroll', function() {
     var section = document.getElementById('habilidades');
