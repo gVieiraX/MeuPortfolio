@@ -1,9 +1,9 @@
-# Meu Portfólio
-  Meu primeiro portfólio desenvolvido utilizando:
+# Portfólio desenvolvido utilizando:
   * HTML
   * CSS
   * JavaScript
 
     
- **Futuramente adicionarei mais informações e desenvolver novas mudanças e atualiazações. Esse é só o começo 🚀.**
+Futuramente, planejo adicionar novas funcionalidades e atualizações. Esse é só o começo 🚀.
+
 # https://portfoliogvieira.netlify.app/
