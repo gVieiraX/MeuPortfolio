@@ -6,4 +6,3 @@
     
 Futuramente, planejo adicionar novas funcionalidades e atualizações. Esse é só o começo 🚀.
 
-# https://portfoliogvieira.netlify.app/
